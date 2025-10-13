@@ -70,11 +70,12 @@ public class ClothingItem {
         size = Size.M;
         price = 1000;
         itemCount++;
+        //
     }
 
 
 
-    //Task 4
+    //Task four
     public void displayInfo(){
         System.out.println("Name: " + name + " | Type: " + type + " | Size: " + size + " | Price: " + price +"Zig");
 
@@ -99,7 +100,7 @@ public class ClothingItem {
             price = discountedPrice;
 
             System.out.println("Your discount is " + discount);
-            System.out.println("Your new price is " + price +"Zig");
+            System.out.println("Your new price is " + price +"Zig");//zig is currency
 
 
         } else {

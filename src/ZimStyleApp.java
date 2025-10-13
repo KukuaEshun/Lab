@@ -33,7 +33,7 @@ public class ZimStyleApp {
 
 
 
-        //Task 6
+        //Task six
         //Creating  a ClothingItem array
 
         ClothingItem[] inventory = new ClothingItem [5];
