@@ -77,13 +77,13 @@ public class ClothingItem {
 
     //Task four
     public void displayInfo(){
-        System.out.println("Name: " + name + " | Type: " + type + " | Size: " + size + " | Price: " + price +"Zig");
+        System.out.println("Name: " + name + " | Type: " + type + " | Size: " + size + " | Price: " + price + "Zig");
 
     }
 
     public void displayInfo(boolean showPrice) {
         if(showPrice){
-            System.out.println("Name: " + name + " | Type: " + type + " | Size: " + size + " | Price: " + price +"Zig");
+            System.out.println("Name: " + name + " | Type: " + type + " | Size: " + size + " | Price: " + price + "Zig");
 
         }else{
             System.out.println("Name: " + name + " | Type: " + type + " | Size: " + size);
