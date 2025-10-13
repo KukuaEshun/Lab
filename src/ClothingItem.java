@@ -99,7 +99,7 @@ public class ClothingItem {
 
             price = discountedPrice;
 
-            System.out.println("Your discount is " + discount);
+            System.out.println("Your discount is " + discount +" "+ "Zig");
             System.out.println("Your new price is " + price +"Zig");//zig is currency
 
 
