@@ -58,7 +58,7 @@ public class ZimStyleApp {
 
         double average = total / inventory.length;
 
-        //output in two decimal places
+        //output in two decimal places.
         System.out.printf("Average Price for All Items: $%.2f%n", average);
 
 
