@@ -47,7 +47,7 @@ public class ZimStyleApp {
         for(ClothingItem item : inventory){
             item.displayInfo();
         }
-        System.out.println(ClothingItem.getItemCount());
+        System.out.println("Items created =" + " " +ClothingItem.getItemCount());
         for(ClothingItem item : inventory){
             item.applyDiscount();
         }
